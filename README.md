@@ -5,7 +5,7 @@ Base Docker image for building Python microservices
 | Name              | Description                                          | Default value | Values        |      
 |-------------------|------------------------------------------------------|---------------|---------------|  
 | APP_SERVER        | Specifies command that will run a web application.   | `none`        | `sanic` (Sanic server), `simplerun` (run the application via `run.py` script in the `app/` folder, `none` (run in the idle mode (sleep)) |  
-| MONGODB_HOST      | Hostname of the database.                            | mongodb       | -             |
+| MONGODB_HOST      | Hostname of the MongoDB instance.                    | mongodb       | -             |
 | MONGODB_PORT      | Listened port by the MongoDB instance.               | 27017         | –             |
 | REDIS_HOST        | Hostname of the Redis.                               | redis         | –             |
 | REDIS_PORT        | Listened port by the Redis instance.                 | 6379          | –             |
