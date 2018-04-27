@@ -11,6 +11,9 @@ Base Docker image for building Python microservices
 | REDIS_PORT        | Listened port by the Redis instance.                 | 6379          | –             |
 | RABBITMQ_HOST     | Hostname of the RabbitMQ instance.                   | rabbitmq      | –             |
 | RABBITMQ_PORT     | Listened port by the RabbitMQ instance.              | 5672          | –             |
+| SERVICE_HOST      | Hostname of the service.                             | localhost     | –             |
+| SERVICE_PORT      | Listened port by the service.                        | 8000          | –             |               
 | WAIT_FOR_MONGODB  | Wait until the MongoDB container isn't initialized.  | `false`       | `false` or a positive integer value | 
 | WAIT_FOR_REDIS    | Wait until the Redis container isn't initialized.    | `false`       | `false` or a positive integer value |
 | WAIT_FOR_RABBITMQ | Wait until the RabbitMQ container isn't initialized. | `false`       | `false` or a positive integer value |
+| WAIT_FOR_SERVICE  | Wait until the service container isn't initialized.  | `false`       | `false` or a positive integer value |
